@@ -1,0 +1,6 @@
+User-Agent: Googlebot
+Disallow: /admin
+Disallow: /test
+
+
+Sitemap: https://domain.com/sitemap.xml
