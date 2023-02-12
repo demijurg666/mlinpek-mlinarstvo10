@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-^o680@8ruu*kvvs&8%%o#38_2nh2n$gv@lchg5!zx%lik+uqjp"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -197,6 +197,6 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'darko.spasojevic.django25@gmail.com'
-EMAIL_HOST_PASSWORD = 'lqmhdzlepyxfykqg'
+EMAIL_HOST_PASSWORD = 'sfjzetbgnnvceyhv'
 #novo gugl pravilo je to da na ovakve sajtove vise ne stavljas svoju originalnu gmail lozinku, vec moras da odes u gugl security da ti on da neku random lozinku koju ces ubaciti ovde
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
